@@ -16,6 +16,7 @@ def upload_csv():
 
     if not file.filename.endswith('.csv'):
         return jsonify({"message": "File is not a CSV"}), 400
+
     file.save("uploads/" + file.filename)
 
     return jsonify({"message": "CSV uploaded successfully"}), 200
