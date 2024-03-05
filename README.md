@@ -8,6 +8,7 @@ To create a virtual envirolment
 
 ### `source venv/bin/activate`
 To activate the virtual enviroment
+This command should be run every time before running a project
 
 ### `pip3 install -r requirements.txt`
 To install all the dependency of the project
