@@ -15,7 +15,10 @@ To install all the dependency of the project
 
 In the project directory, you can run:
 
+To start the server
+
 ### `python3 server.py `
+
 
 Runs the api in the development mode.\
 use the URl [http://localhost:4545](http://localhost:4545) to hit the API.
